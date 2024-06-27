@@ -1,0 +1,16 @@
+.game-board {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card-group {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+}
+
+button {
+  width: 100px;
+  cursor: pointer;
+}
